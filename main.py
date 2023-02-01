@@ -67,11 +67,3 @@ plt.xlabel('time(days)')
 plt.ylabel('S&P 500 stock Price')
 plt.legend()
 plt.show()
-
-"""
-json_file = open("resources\\regressor.json", "w")
-regressor_json = regressor.to_json()
-json_file.write(regressor_json)
-json_file.close()
-regressor.save_weights("json_weights.h5")
-"""
